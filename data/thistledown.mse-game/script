@@ -1,0 +1,17 @@
+# General utility
+align_center := { other.left + (other.width / 2) - (width / 2) }
+align_middle := { other.top + (other.height / 2) - (height / 2) }
+
+# Habitat cover boxes
+coverbox_visible := { card.cardslots >= idx }
+coverbox_row := { (idx - 1) div 2 }
+coverbox_single := { ((card.cardslots mod 2) == 1) and ("" + idx == card.cardslots) }
+coverbox_left := { centerline := cardw / 2
+	if coverbox_single(idx)
+	then align_center(width: stdcardw, other:card_box)
+	else (centerline - stdcardw + ((idx - 1) mod 2) * (stdcardw + 20)) }
+
+cardslot_filter := {
+	input := require_exclusive_choice(choices: "Habitat Slot, Slotted Animal")
+	input
+}

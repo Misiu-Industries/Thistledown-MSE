@@ -1,0 +1,7 @@
+add cards script:
+	name: &Update cards from autogen
+	description: Overwrite card info from csv (see translate_csv_to_mse.py)
+	script:
+		# TODO:
+		#show_yes_no_dialog("This set already contains basic snow-covered lands, do you want to add more?")
+		include file: cards_to_import

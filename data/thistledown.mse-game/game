@@ -7,6 +7,16 @@ position hint: 44
 
 version: 2024-02-07
 
+init script:
+	stdcardw := 338
+	stdcardh := 511
+	habcardw := 789
+	habcardh := 774
+
+	include file: script
+
+include file: add_cards_scripts
+
 set field:
 	type: text
 	name: set title
@@ -22,9 +32,17 @@ set field:
 	type: text
 	name: copyright
 card field:
+	type: choice
+	name: shape
+	save value: false
+	show statistics: false
+	editable: false
+	choice: animal
+	choice: plant
+card field:
 	type: text
 	name: name
-	description: Name of the bird.
+	description: Name of the card.
 	identifying: true
 	card list visible: true
 	card list column: 1
@@ -32,29 +50,38 @@ card field:
 card field:
 	type: text
 	name: sciencename
-	description: Latin scientific name of the bird.
+	description: Latin scientific name of the card.
 	card list visible: false
 	show statistics: false
 card field:
 	type: multiple choice
-	name: habitat
-	description: Habitats of the bird.
-	choice: forest
-	choice: grassland
-	choice: wetland
-	initial: forest, grassland, wetland
+	name: cover
+	description: Cover for the animal.
+	choice: Leaf litter
+	choice: Ground cover
+	choice: Brush pile
+	choice: Understory
+	choice: Canopy
 	card list visible: true
 	card list column: 2
-	card list name: Habitat
+	card list name: Cover
 	show statistics: false
 card field:
 	type: text
-	name: foodcost
+	name: food
 	card list visible: true
 	card list column: 3
-	card list name: Cost
+	card list name: Food
 	show statistics: false
-	description: Food cost of the bird.
+	description: Foods the animal can eat.
+card field:
+	type: text
+	name: young
+	card list visible: true
+	card list column: 3
+	card list name: Food
+	show statistics: false
+	description: Place to raise the animal's young.
 card field:
 	type: text
 	name: points
@@ -62,11 +89,11 @@ card field:
 	card list column: 4
 	card list name: Points
 	show statistics: false
-	description: Point value of the bird.
+	description: Point value of the organism.
 card field:
 	type: choice
-	name: eggs
-	description: Maximum eggs.
+	name: pop
+	description: Maximum population.
 	choice: 1
 	choice: 2
 	choice: 3
@@ -77,12 +104,12 @@ card field:
 	card list column: 5
 card field:
 	type: text
-	name: wingspan
+	name: mass
 	card list visible: true
 	card list column: 4
-	card list name: Wingspan
+	card list name: Mass
 	show statistics: false
-	description: Wingspan in cm (or * for wild).
+	description: Mass in grams, kgs, etc.
 card field:
 	type: color
 	name: power type
@@ -110,30 +137,73 @@ card field:
 	type: image
 	name: art
 	show statistics: false
-	description: The image of the bird.
+	description: The image of the organism.
 card field:
 	type: text
 	name: power
-	description: Bird's power.
+	description: Organism's power.
 	multi line: true
 	show statistics: false
 	card list visible: true
 	card list column: 7
 card field:
-	type: choice
-	name: nest
-	description: Nesting habit.
-	choice: any
-	choice: bowl
-	choice: ground
-	choice: platform
-	choice: cavity
-	card list visible: true
-	card list column: 8
-card field:
 	type: text
 	name: funfacts
-	description: Fun facts about the bird.
+	description: Fun facts about the organism.
 	multi line: true
 	show statistics: false
 	card list visible: false
+# Habitat only
+card field:
+	type: choice
+	name: cardslots
+	description: Number of cards slottable into this habitat.
+	choice: 1
+	choice: 2
+	choice: 3
+	choice: 4
+	choice: 5
+	choice: 6
+# The following are duplicate "cover" fields for habitats that have more than one
+card field:
+	type: multiple choice
+	name: slot1
+	description: Settings for 1st card slot provided by the habitat.
+	empty choice: Blank
+	choice:
+		name: Habitat Slot
+		type: radio
+	choice:
+		name: Slotted Animal
+		type: radio
+		line below: true
+	choice: Leaf litter
+	choice: Ground cover
+	choice: Brush pile
+	choice: Understory
+	choice: Canopy
+	script: cardslot_filter(value)
+	card list visible: false
+	card list name: Cover
+	show statistics: false
+card field:
+	type: multiple choice
+	name: slot2
+	description: Settings for 2nd card slot provided by the habitat.
+	empty choice: Blank
+	choice:
+		name: Habitat Slot
+		type: radio
+	choice:
+		name: Slotted Animal
+		type: radio
+		line below: true
+	choice: Leaf litter
+	choice: Ground cover
+	choice: Brush pile
+	choice: Understory
+	choice: Canopy
+	script: cardslot_filter(value)
+	card list visible: false
+	card list name: Cover
+	show statistics: false

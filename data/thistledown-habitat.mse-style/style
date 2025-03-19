@@ -1,0 +1,181 @@
+mse version: 2.0.0
+game: Thistledown
+full name: Thistledown Habitat
+short name: Habitat
+installer group: Thistledown/Habitat
+icon: sample.png
+
+version: 2024-02-07
+depends on:
+	package: Thistledown.mse-game
+	version: 2024-02-07
+
+card width: 789
+card height: 600
+card dpi: 150
+card background: rgb(245, 246, 241)
+
+init script:
+	# Proportions adapted from the web styling of the excellent Wingsearch, found at
+	# https://navarog.github.io/wingsearch
+	cardw := 789 # Must match "card width:" tag, but that isn't available in init script
+	cardh := 600 # Must match "card height:" tag
+	fontscale := stdcardw / 338 # In case we need to upsize something
+	card_box := [
+		width: cardw,
+		height: cardh,
+		left: 0,
+		top: 0
+	]
+	gray_box := [
+		width: cardw * 0.2774
+		height: cardw * 0.3328
+		left: cardw * 0.05547
+		top: -3
+	]
+	habitat_box := [
+		width: gray_box.width
+		height: gray_box.height * 0.65
+		left: gray_box.left
+		top: gray_box.top
+	]
+	food_box := [
+		width: gray_box.width
+		height: gray_box.height * 0.35
+		left: gray_box.left
+		top: gray_box.top + gray_box.height * (1 - 0.35)
+	]
+	title_box := [
+		width: cardw * 0.6413
+		height: cardh * 0.1291
+		left: gray_box.left + gray_box.width + 0.018 * cardw
+		top: cardh * 0.03634
+	]
+# Unique-per-card fields
+card style:
+	# Top row: habitat, cost, name
+	name:
+		top: { cardh * 0.75 }
+		height: { title_box.height / 2 }
+		left: { align_center(width: title_box.width, other: card_box) }
+		width: { title_box.width }
+		padding left: { cardw * 0.05547 }
+		padding right: { cardw * 0.05547 }
+		alignment: middle center shrink-overflow
+		z index: 3
+		font:
+			name: Cardenio Modern
+			size: { 18 * fontscale }
+			color: rgb(0,0,0)
+			weight: bold
+	sciencename:
+		top: { card_style.name.bottom }
+		left: { card_style.name.left }
+		width: { card_style.name.width }
+		height: { card_style.name.height }
+		padding left: { card_style.name.padding_left }
+		padding left: { card_style.name.padding_right }
+		alignment: middle center shrink-overflow
+		z index: 3
+		font:
+			name: Thirsty Rough Lt
+			size: { 15 * fontscale }
+			color: rgb(102,102,102)
+	# Card art
+	art:
+		top: 0
+		left: 0
+		width: { cardw }
+		height: { cardh }
+		z index: 1
+	cardslots:
+		top: { cardw * 0.01835 }
+		left: { cardw * 0.065 }
+		width: { cardh * 0.04 }
+		height: { (cardh * 0.04) / 86 * 202 }
+		z index: 3
+		render style: image
+		choice images:
+			1: 1.png
+			2: 2.png
+			3: 3.png
+			4: 4.png
+			5: 5.png
+			6: 6.png
+	slot1:
+		top : { -0.25 * stdcardh }
+		left: { coverbox_left(idx: 1) }
+		width: { stdcardw }
+		height: { stdcardh }
+		visible: { coverbox_visible(idx: 1) }
+		z index: 3
+	cover2:
+		top : { -0.25 * stdcardh }
+		left: { coverbox_left(idx: 2) }
+		width: { stdcardw }
+		height: { stdcardh }
+		visible: { coverbox_visible(idx: 2) }
+		z index: 3
+	power:
+		top: { card_style.power_type.top + cardh * 0.03634 }
+		left: 0
+		width: { cardw }
+		height: { card_style.power_type.height - cardh * 0.07267 }
+		alignment: middle left shrink-overflow
+		padding left: { card_style.name.padding_left }
+		padding right: { card_style.name.padding_right }
+		z index: 3
+		font:
+			name: Futura LtCn BT
+			italic name: Cardenio Modern
+			size: { 17 * fontscale }
+			color: rgb(0,0,0)
+		symbol font:
+			name: wingspan-symbols
+			size: { 21 * fontscale }
+			alignment: middle center
+		always symbol: false
+	funfacts:
+		right: { cardw - (cardw * 0.05547) }
+		width: { cardw * 0.6 }
+		bottom: { cardh - (cardh * 0.03) }
+		height: { cardh * 0.07339 }
+		alignment: top left
+		z index: 3
+		font:
+			name: Futura LtCn BT
+			size: { 11.5 * fontscale }
+			color: rgb(74,65,57)
+			weight: italic
+# Common-to-all formatting fields
+extra card field:
+	type: choice
+	name: cardbg
+	editable: false
+	show statistics: false
+	save value: false
+	choice: white
+extra card field:
+	type: choice
+	name: globe
+	editable: false
+	show statistics: false
+	save value: false
+	choice: white
+extra card style:
+	cardbg:
+		left: 0
+		top: 0
+		width: { cardw }
+		height: { cardh }
+		z index: 0
+		render style: image
+		image: cardbg.png
+	globe:
+		bottom: { cardh - (cardh * 0.01) }
+		left: { cardw * 0.05547 }
+		width: { cardw * 0.25 }
+		height: { (cardw * 0.25) / 96 * 58 }
+		z index: 2
+		render style: image
+		image: globe.png
