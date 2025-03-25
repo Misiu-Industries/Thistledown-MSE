@@ -1,0 +1,19 @@
+card:
+	has_styling: false
+	notes:
+		time_created: 2025-03-20 16:26:16
+	time_modified: 2025-03-20 16:26:16
+	name: Red-shouldered Hawk
+	sciencename: Buteo lineatus
+		animal_type: Bird
+	mass_g: 770
+	art:
+card:
+	has_styling: false
+	notes:
+	time_created: 2025-03-20 16:26:16
+	time_modified: 2025-03-20 16:26:16
+	sciencename: Thryothorus ludovicianus
+	animal_type: Bird
+	mass_g: 20
+	art:

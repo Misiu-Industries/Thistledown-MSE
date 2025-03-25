@@ -42,7 +42,7 @@ card style:
 		bottom: { title_box.top + (title_box.height / 2) }
 		left: { title_box.left }
 		width: { title_box.width }
-		padding left: { cardw * 0.05547 }
+		padding left: { percent(base: cardw, pct: 5.547) }
 		padding right: { cardw * 0.05547 }
 		alignment: middle center shrink-overflow
 		z index: 3
@@ -64,13 +64,27 @@ card style:
 			name: Thirsty Rough Lt
 			size: { 15 * fontscale }
 			color: rgb(102,102,102)
-	cover:
+	animal_type:
 		top: { title_box.top }
-		left: { title_box.right }
-		width: { 30 }
-		height: { 30 }
+		left: { title_box.right + cardw * 0.05 }
+		width: { cardw * 0.25 }
+		height: { 30 * fontscale }
 		alignment: bottom center
 		z index: 3
+		alignment: middle center shrink-overflow
+		z index: 3
+		font:
+			name: Cardenio Modern
+			size: { 18 * fontscale }
+			color: rgb(0,0,0)
+			weight: bold
+	animal_type_color:
+		top: 0
+		left: -1
+		width: { cardw + 2 }
+		height: { cardh + 2 }
+		z index: 0
+		mask: typemask.png
 	food:
 		top: { card_style.cover.bottom }
 		left: { card_style.cover.left }
@@ -87,65 +101,29 @@ card style:
 			alignment: middle center
 		always symbol: true
 		z index: 3
-	# Card art
 	art:
-		top: 55
+		top: { 46 }
 		left: 0
 		width: { cardw }
-		height: 330
+		height: 215
 		z index: 1
-		mask: cardmask.png
-	# Middle row: points, nesting habit, how many eggs
-	points:
-		left: { title_box.left - 10 }
-		top: { align_middle(height: 52, other: title_box) }
-		width: { cardh * 0.05504 }
-		height: 52
-		alignment: middle center
-		z index: 3
-		font:
-			name: Cardenio Modern
-			size: { 28 * fontscale }
-			color: rgb(74,65,57)
-			weight: bold
-	pop:
-		top: { card_style.points.bottom + (cardw * 0.01835) }
-		left: { cardw * 0.065 }
-		width: { cardh * 0.04 }
-		height: { (cardh * 0.04) / 86 * 202 }
-		z index: 3
-		render style: image
-		choice images:
-			1: 1.png
-			2: 2.png
-			3: 3.png
-			4: 4.png
-			5: 5.png
-			6: 6.png
-	# Bottom row: power, fun fact, region
-	power_type:
-		top: { cardh * 0.6904 }
-		left: -1
-		width: { cardw + 2 }
-		height: { cardh * 0.1908 }
-		z index: 2
-		mask: powermask.png
-	mass:
-		right: { cardw - (cardw * 0.05547) }
-		width: { cardw * 0.1664 }
-		bottom: { card_style.power_type.top - (cardh * 0.04) }
+		mask: cardmask2.png
+	mass_g:
 		height: { cardh * 0.03667 }
+		width: { cardw * 0.1664 }
+		left: { align_center(width: card_style.mass_g.width, other: card_style.animal_type) }
+		top: { card_style.animal_type.bottom + (cardh * 0.005) }
 		alignment: bottom center
 		z index: 3
 		font:
 			name: Cardenio Modern
 			size: { 14 * fontscale }
 			color: rgb(74,65,57)
-	power:
-		top: { card_style.power_type.top + cardh * 0.03634 }
-		left: 0
-		width: { cardw }
-		height: { card_style.power_type.height - cardh * 0.07267 }
+	feed_rules:
+		top: { cardh * 0.5 }
+		left: { cardw * 0.04 }
+		width: { cardw * 0.92 }
+		height: { cardh * 0.33 }
 		alignment: middle left shrink-overflow
 		padding left: { card_style.name.padding_left }
 		padding right: { card_style.name.padding_right }
@@ -192,27 +170,6 @@ extra card field:
 	show statistics: false
 	save value: false
 	choice: white
-extra card field:
-	type: choice
-	name: point_icon
-	editable: false
-	show statistics: false
-	save value: false
-	choice: white
-extra card field:
-	type: choice
-	name: wingspan_icon
-	editable: false
-	show statistics: false
-	save value: false
-	choice: white
-extra card field:
-	type: choice
-	name: globe
-	editable: false
-	show statistics: false
-	save value: false
-	choice: white
 extra card style:
 	title_box_fill:
 		left: { title_box.left }
@@ -235,30 +192,6 @@ extra card style:
 		top: 0
 		width: { cardw }
 		height: { cardh }
-		z index: 0
+		z index: -1
 		render style: image
 		image: cardbg.png
-	point_icon:
-		top: { cardh * 0.2998 }
-		left: { cardw * 0.06934 }
-		height: { cardh * 0.1090 }
-		width: { (cardh * 0.1090) * 0.4772 }
-		z index: 2
-		render style: image
-		image: point.png
-	wingspan_icon:
-		bottom: { card_style.power_type.top - (cardh * 0.01817) }
-		right: { cardw - (cardw * 0.05547) }
-		width: { cardw * 0.1664 }
-		height: { (cardw * 0.1664) * 0.2067 }
-		z index: 2
-		render style: image
-		image: wingspan.png
-	globe:
-		bottom: { cardh - (cardh * 0.01) }
-		left: { cardw * 0.05547 }
-		width: { cardw * 0.25 }
-		height: { (cardw * 0.25) / 96 * 58 }
-		z index: 2
-		render style: image
-		image: globe.png

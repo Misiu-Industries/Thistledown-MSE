@@ -10,7 +10,7 @@ depends on:
 	package: Thistledown.mse-game
 	version: 2024-02-07
 
-card width: 789
+card width: 600
 card height: 600
 card dpi: 150
 card background: rgb(245, 246, 241)
@@ -18,7 +18,7 @@ card background: rgb(245, 246, 241)
 init script:
 	# Proportions adapted from the web styling of the excellent Wingsearch, found at
 	# https://navarog.github.io/wingsearch
-	cardw := 789 # Must match "card width:" tag, but that isn't available in init script
+	cardw := 600 # Must match "card width:" tag, but that isn't available in init script
 	cardh := 600 # Must match "card height:" tag
 	fontscale := stdcardw / 338 # In case we need to upsize something
 	card_box := [
@@ -46,16 +46,15 @@ init script:
 		top: gray_box.top + gray_box.height * (1 - 0.35)
 	]
 	title_box := [
-		width: cardw * 0.6413
+		width: percent(base: cardw, pct: 55)
 		height: cardh * 0.1291
-		left: gray_box.left + gray_box.width + 0.018 * cardw
-		top: cardh * 0.03634
+		left: cardw * 0.225
+		top: cardh * 0.75
 	]
 # Unique-per-card fields
 card style:
-	# Top row: habitat, cost, name
 	name:
-		top: { cardh * 0.75 }
+		top: { title_box.top }
 		height: { title_box.height / 2 }
 		left: { align_center(width: title_box.width, other: card_box) }
 		width: { title_box.width }
@@ -109,18 +108,11 @@ card style:
 		height: { stdcardh }
 		visible: { coverbox_visible(idx: 1) }
 		z index: 3
-	cover2:
-		top : { -0.25 * stdcardh }
-		left: { coverbox_left(idx: 2) }
-		width: { stdcardw }
-		height: { stdcardh }
-		visible: { coverbox_visible(idx: 2) }
-		z index: 3
 	power:
-		top: { card_style.power_type.top + cardh * 0.03634 }
+		top: { cardh * 0.5 }
 		left: 0
 		width: { cardw }
-		height: { card_style.power_type.height - cardh * 0.07267 }
+		height: { cardh * 0.33 }
 		alignment: middle left shrink-overflow
 		padding left: { card_style.name.padding_left }
 		padding right: { card_style.name.padding_right }
@@ -149,6 +141,18 @@ card style:
 			weight: italic
 # Common-to-all formatting fields
 extra card field:
+	type: color
+	name: title_box_fill
+	initial: rgb(245, 246, 241)
+	editable: false
+	show statistics: false
+extra card field:
+	type: color
+	name: title_box_border
+	initial: rgb(116, 104, 94)
+	editable: false
+	show statistics: false
+extra card field:
 	type: choice
 	name: cardbg
 	editable: false
@@ -163,6 +167,22 @@ extra card field:
 	save value: false
 	choice: white
 extra card style:
+	title_box_fill:
+		left: { title_box.left }
+		top: { title_box.top }
+		width: { title_box.width }
+		height: { title_box.height }
+		z index: 2
+	title_box_border:
+		left: { title_box.left }
+		top: { title_box.top }
+		width: { title_box.width }
+		height: { title_box.height }
+		left width:   1
+		right width:  1
+		top width:    1
+		bottom width: 1
+		z index: 2
 	cardbg:
 		left: 0
 		top: 0

@@ -1,0 +1,81 @@
+﻿mse_version: 2.0.2
+game: Thistledown
+game_version: 2024-02-07
+stylesheet: animal
+stylesheet_version: 2024-02-07
+card:
+	has_styling: false
+	notes: 
+	time_created: 2024-02-15 18:04:05
+	time_modified: 2025-03-19 14:12:30
+	name: Green Anole
+	sciencename: Anolis carolinensis
+	animal_type: Reptile
+	cover: Ground cover
+	food: Eats shoots and leaves
+	points: 3
+	art: art1
+	power: Maybe it ditches its tail or something?
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:01:47
+	name: Red-shouldered Hawk
+	sciencename: Buteo lineatus
+	animal_type: Bird
+	mass_g: 770
+	art: art1.png
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:00:13
+	name: Carolina Wren
+	sciencename: Thryothorus ludovicianus
+	animal_type: Bird
+	mass_g: 20
+	art: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:00:13
+	name: Tufted Titmouse
+	sciencename: Baeolophus bicolor
+	animal_type: Bird
+	mass_g: 20
+	art: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:00:13
+	name: American Crow
+	sciencename: Corvus brachyrhynchos
+	animal_type: Bird
+	mass_g: 450
+	art: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:00:13
+	name: Feral Cat
+	sciencename: Felis cattus
+	animal_type: Mammal
+	mass_g: 4000
+	art: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	time_modified: 2025-03-19 17:00:13
+	name: Outdoor Cat
+	sciencename: Felis cattus
+	animal_type: Mammal
+	mass_g: 4000
+	art: 
+version_control:
+	type: none
+apprentice_code: 

@@ -1,0 +1,14 @@
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	poop:
+		nugget: true
+	time_modified: 2025-03-19 17:00:13
+	name: American Crow
+	sciencename: Corvus brachyrhynchos
+	animal_type: Bird
+	mass_g: 450
+	art: 
+card:
+	has_styling: false

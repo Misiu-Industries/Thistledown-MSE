@@ -5,3 +5,9 @@ add cards script:
 		# TODO:
 		#show_yes_no_dialog("This set already contains basic snow-covered lands, do you want to add more?")
 		include file: cards_to_import
+		# cards_to_import puts data in a variable called "import_list", now we check for dups
+		for each incoming_card in import_list do (
+			existing_card := filter_list(set, filter:{input.name == incoming_card.name})
+			trace(incoming_card.name + " at ")
+		)
+		import_list

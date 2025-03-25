@@ -1,0 +1,38 @@
+set_key: something
+card:
+	has_styling: false
+	notes: 
+	time_created: 2025-03-19 17:00:13
+	poop:
+		nugget: true
+	time_modified: 2025-03-19 17:00:13
+	name: American Crow
+	sciencename: Corvus brachyrhynchos
+	animal_type: Bird
+	mass_g: 450
+	art: 
+card:
+	has_styling: false
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:02:59
+	time modified: 2019-12-30 08:52:43
+	name: Scrooge's Curse
+	casting cost: 1WB
+	image: image3
+	super type: <word-list-type>Legendary Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>player</param-name></nospellcheck></kw-a>
+		Creatures enchanted player controls can’t block Spirits.
+		At the beginning of your end step, if you control less than three Spirits, create a 1/1 white and black Spirit creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 

@@ -25,12 +25,6 @@ set field:
 	type: text
 	name: description
 	multi line: true
-set field:
-	type: text
-	name: artist
-set field:
-	type: text
-	name: copyright
 card field:
 	type: choice
 	name: shape
@@ -54,6 +48,25 @@ card field:
 	card list visible: false
 	show statistics: false
 card field:
+	type: text
+	name: animal_type
+	description: Type of the animal.
+	card list visible: true
+	card list column: 2
+card field:
+	type: color
+	name: animal type color
+	editable: false
+	card list visible: false
+	script:
+		input := card.animal_type
+		if      input == "Mammal"    then rgb(251, 173,  78)
+		else if input == "Bird"      then rgb(183, 204, 212)
+		else if input == "Reptile"   then rgb(167, 171, 103)
+		else if input == "Amphibian" then rgb(203, 221, 143)
+		else if input == "Bug"       then rgb(168, 116, 136)
+		else rgb(147, 147, 147)
+card field:
 	type: multiple choice
 	name: cover
 	description: Cover for the animal.
@@ -63,14 +76,14 @@ card field:
 	choice: Understory
 	choice: Canopy
 	card list visible: true
-	card list column: 2
+	card list column: 3
 	card list name: Cover
 	show statistics: false
 card field:
 	type: text
 	name: food
 	card list visible: true
-	card list column: 3
+	card list column: 4
 	card list name: Food
 	show statistics: false
 	description: Foods the animal can eat.
@@ -104,35 +117,10 @@ card field:
 	card list column: 5
 card field:
 	type: text
-	name: mass
-	card list visible: true
-	card list column: 4
-	card list name: Mass
-	show statistics: false
-	description: Mass in grams, kgs, etc.
-card field:
-	type: color
-	name: power type
-	description: When power activates.
-	allow custom: false
-	choice:
-		name: when played
-		color: rgb(245, 246, 241)
-	choice:
-		name: when activated
-		color: rgb(192, 116, 51)
-	choice:
-		name: once between turns
-		color: rgb(246, 156, 170)
-	choice:
-		name: game end
-		color: rgb(255, 211, 62)
-	choice:
-		name: round end
-		color: rgb(107, 196, 193)
-	default name: when played
-	card list visible: true
-	card list column: 6
+	name: mass_g
+	card list visible: false
+	show statistics: true
+	description: Mass in grams
 card field:
 	type: image
 	name: art
@@ -140,7 +128,7 @@ card field:
 	description: The image of the organism.
 card field:
 	type: text
-	name: power
+	name: feed_rules
 	description: Organism's power.
 	multi line: true
 	show statistics: false

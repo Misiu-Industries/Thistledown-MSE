@@ -2,6 +2,8 @@
 align_center := { other.left + (other.width / 2) - (width / 2) }
 align_middle := { other.top + (other.height / 2) - (height / 2) }
 
+percent := { base * (pct / 100) }
+
 # Habitat cover boxes
 coverbox_visible := { card.cardslots >= idx }
 coverbox_row := { (idx - 1) div 2 }

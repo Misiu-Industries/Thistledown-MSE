@@ -1,0 +1,1991 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15-altered
+set info:
+	symbol: symbol8.mse-symbol
+	masterpiece symbol: 
+styling:
+	magic-counter-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-etherium:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-aftermath: text box mana symbols: magic-mana-small.mse-symbol-font
+	magic-m15-altered:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-clear:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-commander:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-exporter:
+		back face: no
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-miracle:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-nonbasic-lands:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-outlaws:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-paradox:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-pokemon:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-snow:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-split:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-split-fusable:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-textless:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-textless-land:
+		overlay: 
+	magic-m15-token:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-token-clear:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-ttk-conspiracy:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-ttk-frames:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-megaman:
+		text box mana symbols: magic-mana-megaman.mse-symbol-font
+		overlay: 
+	magic-new-extra:
+		text box mana symbols: magic-mana-small-extra.mse-symbol-font
+		pt box symbols: magic-pt-symbols-extra.mse-symbol-font
+		overlay: 
+	magic-new-god:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-god-black:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-harvester:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-japanese:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-maro:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-miracle:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-phyrexian:
+		text box mana symbols: magic-mana-small-phyrexian.mse-symbol-font
+		overlay: 
+	magic-new-token-clear:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-unset:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-old:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-old-abu:
+		text box mana symbols: magic-mana-small-abu.mse-symbol-font
+		overlay: 
+	magic-old-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-old-portal:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-planeshifted:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-sevenhalf:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:02:59
+	time modified: 2019-12-30 08:52:43
+	name: Scrooge's Curse
+	casting cost: 1WB
+	image: image3
+	super type: <word-list-type>Legendary Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>player</param-name></nospellcheck></kw-a>
+		Creatures enchanted player controls can’t block Spirits.
+		At the beginning of your end step, if you control less than three Spirits, create a 1/1 white and black Spirit creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:15:05
+	time modified: 2019-12-29 13:45:59
+	name: Comet, Cupid, Donner, Blitzen
+	casting cost: 1RW
+	image: image4
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Deer</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		<kw-0><nospellcheck>Partner</nospellcheck></kw-0> with Dasher, Dancer, Prancer, Vixen. <i-auto>(When this creature enters the battlefield, target player may put Dasher, Dancer, Prancer, Vixen into their hand from their library, then shuffle.)</i-auto>
+		Whenever this creature crews a Vehicle, that Vehicle gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:20:11
+	time modified: 2019-12-29 13:46:49
+	name: Dasher, Dancer, Prancer, Vixen
+	casting cost: 1WB
+	image: image5
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Deer</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
+		<kw-0><nospellcheck>Partner</nospellcheck></kw-0> with Comet, Cupid, Donner, <error-spelling:en_us:/magic.mse-game/magic-words>Blitzen</error-spelling:en_us:/magic.mse-game/magic-words>. <i-auto>(When this creature enters the battlefield, target player may put Comet, Cupid, Donner, <error-spelling:en_us:/magic.mse-game/magic-words>Blitzen</error-spelling:en_us:/magic.mse-game/magic-words> into their hand from their library, then shuffle.)</i-auto>
+		Whenever this creature crews a Vehicle, that Vehicle gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> and <kw-a><nospellcheck>vigilance</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:23:30
+	time modified: 2020-01-19 13:44:54
+	name: Rudolph, Red-Nosed
+	casting cost: 2R
+	image: image6
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Deer</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Damage can’t be prevented.
+	flavor text: <i-flavor>Rudolph, with your nose so bright. Won’t you guide the sleigh tonight?</i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:24:52
+	time modified: 2019-12-29 13:47:50
+	name: Saint Nicholas, Santa Claus
+	casting cost: 3RWU
+	image: image7
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		Whenever Saint Nicholas, Santa Claus or a Vehicle crewed by it this turn attacks or blocks, exchange control of two target permanents that share a permanent type.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 7
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:27:47
+	time modified: 2019-12-31 16:36:48
+	name: Santa's Sleigh 
+	casting cost: RW
+	image: image8
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Vehicle</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		Whenever Santa’s Sleigh deals combat damage to a player, each player creates that many Present tokens. <i-auto>(They’re artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+		<kw-0><nospellcheck>Crew <param-number>4</param-number></nospellcheck></kw-0>
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:37:53
+	time modified: 2019-12-29 17:20:28
+	name: The List
+	casting cost: 4
+	image: image9
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		As The List enters the battlefield choose Naughty or Nice.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Naughty — <sym-auto>T</sym-auto>: Put a -1/-1 counter on target creature.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Nice — <sym-auto>T</sym-auto>: Put a +1/+1 counter on target creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:42:34
+	time modified: 2019-12-31 16:36:56
+	name: Festive Fir
+	image: image10
+	super type: <word-list-type>Snow Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: rare
+	rule text:
+		Festive Fir enters the battlefield tapped unless you have an opponent of your choice create a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 13:44:27
+	time modified: 2019-12-30 11:56:54
+	name: Grinch, Who Steals Christmas
+	casting cost: 2BR
+	image: image11
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Grinch</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		When Grinch, Who Steals Christmas enters the battlefield, destroy all artifact tokens. For each permanent destroyed this way, its controller creates a Coal token. <i-auto>(They’re artifacts with “At the beginning of your upkeep, you lose 1 life” and “<sym>2</sym>, <sym-auto>T</sym-auto>: Sacrifice this artifact”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 14:07:36
+	time modified: 2019-12-29 23:25:49
+	name: Jacob Marley 
+	casting cost: 1B
+	image: image17
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<sym-auto>1</sym-auto>, Sacrifice Jacob Marley: Search your library for a sorcery card named Scrooge’s Curse. Place it on top of your library, then shuffle.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 14:15:26
+	time modified: 2019-12-29 15:02:04
+	name: Ghost of Christmas Past
+	casting cost: 5WB
+	image: image12
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Christmas</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Ghost of Christmas Past costs <sym-auto>1</sym-auto> less to cast for each creature in your graveyard.
+		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: You may cast creature cards from your graveyard until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 14:15:36
+	time modified: 2019-12-29 15:02:01
+	name: Ghost of Christmas Present
+	casting cost: 3BG
+	image: image15
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Christmas</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		Ghost of Christmas Present can’t be countered.
+		When Ghost of Christmas Present enters the battlefield, opponents reveal their hands.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 14:15:53
+	time modified: 2019-12-29 15:01:57
+	name: Ghost of Christmas Yet to Come
+	casting cost: 2UB
+	image: image13
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Christmas</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-0><nospellcheck>Intimidate</nospellcheck></kw-0>
+		Whenever Ghost of Christmas Yet to Come or its controller becomes the target of a spell from a player’s hand, exile that spell. At the beginning of that player’s next upkeep, that player may cast the exiled spell without paying its mana cost.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:16:08
+	time modified: 2019-12-29 17:18:37
+	name: Gifts Exchanged
+	casting cost: 2UR
+	image: image18
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Search your library for up to four cards with different names and exile them. Target opponent chooses two of those cards and casts them without paying their mana cost. You cast each other card exiled this way without paying its mana cost. Then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:20:34
+	time modified: 2019-12-29 17:24:08
+	name: Festive Candelabra of Moses
+	casting cost: 4
+	image: image19
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		At the beginning of your upkeep, if Festive Candelabra of Moses has fewer than eight flame counters on it, put a flame counter on Festive Candelabra of Moses.
+		<sym-auto>T</sym-auto>: Untap X target lands, where X is the number of flame counters on Festive Candelabra of Moses.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:24:23
+	time modified: 2019-12-30 13:21:09
+	name: Snowman's Awakening
+	casting cost: 2WU
+	image: image20
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text:
+		Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. If that card is an Equipment, you may put it onto the battlefield instead.
+		<kw-0><nospellcheck>Awaken <param-number>3</param-number>—<param-cost> <sym>SSWU</sym></param-cost></nospellcheck></kw-0> <i-auto>(If you cast this spell for <sym-auto>SSWU</sym-auto>, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with <kw-a><nospellcheck>haste</nospellcheck></kw-a>. It’s still a land.)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:33:35
+	time modified: 2019-12-31 11:17:18
+	name: Frosty's Hat
+	casting cost: 3
+	image: image24
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule text:
+		Equipped creature gets +0/+2 and has “<sym>S</sym>: Deal 1 damage to target creature.”
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-textless-land
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:50:48
+	time modified: 2019-12-30 14:38:48
+	card color: green, land
+	name: Snow-Covered Forest
+	image: image22
+	super type: <word-list-type>Basic Snow Land</word-list-type>
+	sub type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	watermark: mana symbol green
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-textless-land
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:50:48
+	time modified: 2019-12-30 14:38:40
+	card color: red, land
+	name: Snow-Covered Mountain
+	image: image26
+	super type: <word-list-type>Basic Snow Land</word-list-type>
+	sub type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	watermark: mana symbol red
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-textless-land
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:50:48
+	time modified: 2019-12-30 14:38:32
+	card color: black, land
+	name: Snow-Covered Swamp
+	image: image29
+	super type: <word-list-type>Basic Snow Land</word-list-type>
+	sub type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	watermark: mana symbol black
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-textless-land
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:50:48
+	time modified: 2019-12-30 14:38:44
+	card color: blue, land
+	name: Snow-Covered Island
+	image: image27
+	super type: <word-list-type>Basic Snow Land</word-list-type>
+	sub type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	watermark: mana symbol blue
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-textless-land
+	has styling: false
+	notes: 
+	time created: 2019-12-29 17:50:48
+	time modified: 2019-12-30 14:38:35
+	card color: white, land
+	name: Snow-Covered Plains
+	image: image28
+	super type: <word-list-type>Basic Snow Land</word-list-type>
+	sub type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
+	watermark: mana symbol white
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 18:46:20
+	time modified: 2019-12-29 18:58:45
+	name: Mild Melon
+	casting cost: W
+	image: image1
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		Sacrifice Mild Melon: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Put a +1/+1 counter on target creature.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Put a loyalty counter on target planeswalker.<error-spelling>
+		</error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 18:52:46
+	time modified: 2019-12-29 18:59:06
+	name: Salty Salmon
+	casting cost: U
+	image: image2
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		Sacrifice Salty Salmon: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Untap target creature.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <kw-A><nospellcheck>Scry <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(To scry <param-number>1</param-number>, look at the top card of your library. You may put that card on the bottom of your library.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 18:53:50
+	time modified: 2019-12-29 18:59:27
+	name: Bitter Berry
+	casting cost: B
+	image: image14
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		Sacrifice Bitter Berry: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Target creature gains <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> until end of turn. Tap it.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Target player loses 2 life.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 18:54:50
+	time modified: 2019-12-29 18:59:52
+	name: Piquant Pepper
+	casting cost: R
+	image: image16
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		Sacrifice Piquant Pepper: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Target creature gets +1/+0 and gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Exile top card of your library. You may play it until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 18:55:56
+	time modified: 2019-12-29 19:00:16
+	name: Sour Citrus
+	casting cost: G
+	indicator: colorless
+	image: image21
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		Sacrifice Sour Citrus: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Target creature gets +1/+1 and gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Search your library for a basic land card, reveal it, put it into your hand <error-spelling>,</error-spelling> then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-29 21:14:35
+	time modified: 2019-12-31 16:36:22
+	name: Christmas Elf
+	casting cost: R/G
+	image: image30
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>: Create a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text:
+		<i-flavor>With a toy for each girl and boy
+		Oh, we are Santa’s elves!</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 11:23:54
+	time modified: 2019-12-31 17:06:00
+	name: White Elephant Party
+	casting cost: UR
+	image: image23
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Each player, starting with the controller of White Elephant Party and moving clockwise, exchange control of two target permanents with converted mana cost of 3 or less that share a permanent type. Permanents that have been exchanged cannot be exchanged again.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 11:45:47
+	time modified: 2019-12-30 21:37:47
+	name: Bumble's Bounce
+	casting cost: U
+	image: image39
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Return target nonland permanent to its owners hand.
+	flavor text: <i-flavor>“Bumbles... bounce!” — Yukon Cornelius</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 12:02:26
+	time modified: 2019-12-30 14:24:06
+	name: Sugarplum Glider
+	casting cost: 1R/G
+	image: image32
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When Sugarplum Glider deals combat damage to a player you may have it deal 1 additional damage. If you do, that player creates a Present token.
+	flavor text: <i-flavor>Special delivery!</i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15
+	has styling: false
+	notes: 
+	time created: 2019-12-30 12:21:09
+	time modified: 2019-12-30 17:40:23
+	name: Ensorcelled Nutcracker
+	casting cost: 2
+	image: image31
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-1><nospellcheck>Soulbond</nospellcheck><atom-reminder-expert> <i-auto>(You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)</i-auto></atom-reminder-expert></kw-1>
+		As long as <error-spelling:en_us:/magic.mse-game/magic-words>Ensorcelled</error-spelling:en_us:/magic.mse-game/magic-words> Nutcracker is bonded with another creature, assign all damage that would be assigned to that creature to <error-spelling:en_us:/magic.mse-game/magic-words>Ensorcelled</error-spelling:en_us:/magic.mse-game/magic-words> Nutcracker.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 17:19:03
+	time modified: 2019-12-30 17:25:08
+	name: Bog Humbugs
+	casting cost: 1B
+	image: image33
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Whenever Bog Humbugs deals combat damage, hum that many notes of a festive song. If you can, put a +1/+1 counter on Bog Humbugs.
+	flavor text: <i-flavor>Fa-la-la-la-la, la-la-la-la</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 17:26:11
+	time modified: 2020-01-19 10:27:43
+	name: Troll of the Ancient Yuletide Carol
+	casting cost: 2GG
+	image: image48
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		When Troll of the Ancient Yuletide Carol enters the battlefield create a Present token.
+		<sym-auto>G</sym-auto>: <kw-0><nospellcheck>Regenerate</nospellcheck></kw-0> Troll of the Ancient Yuletide Carol
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-token
+	has styling: false
+	notes: 
+	time created: 2019-12-30 17:46:34
+	time modified: 2019-12-31 16:37:02
+	card color: artifact
+	name: Present
+	image: image25
+	super type: <word-list-type>Token Artifact</word-list-type>
+	sub type: <word-list-artifact>Present</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text: Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-token
+	has styling: false
+	notes: 
+	time created: 2019-12-30 17:50:49
+	time modified: 2019-12-30 17:55:12
+	card color: white, black, hybrid, horizontal
+	name: Spirit
+	image: image36
+	super type: <word-list-type>Token Creature</word-list-type>
+	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-token
+	has styling: false
+	notes: 
+	time created: 2019-12-30 17:55:21
+	time modified: 2019-12-30 17:57:27
+	name: Coal
+	image: image37
+	super type: <word-list-type>Token Artifact</word-list-type>
+	sub type: <word-list-artifact>Coal</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		At the beginning of your upkeep, you lose 1 life
+		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: Sacrifice this artifact
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 18:09:02
+	time modified: 2019-12-31 16:36:42
+	name: Repurposed Packaging
+	casting cost: 1G/U
+	image: image34
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Destroy target artifact or enchantment. Its owner creates a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 18:10:34
+	time modified: 2019-12-31 13:23:46
+	name: Mother Nature's Gyre
+	casting cost: G
+	image: image55
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text:
+		As an additional cost to cast Mother Nature’s <error-spelling:en_us:/magic.mse-game/magic-words>Gyre</error-spelling:en_us:/magic.mse-game/magic-words>, sacrifice a land.
+		Search your library for a land card and put that card onto the battlefield. Then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 18:13:02
+	time modified: 2019-12-31 13:21:11
+	name: Heat Miser's Wrath
+	casting cost: RR
+	image: image52
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Heat Miser’s Wrath deals 5 damage to target creature or player. Reduce damage by 2 if its controller or target player pays <sym>S</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 18:16:00
+	time modified: 2019-12-31 13:20:41
+	name: Snow Miser's Vex
+	casting cost: U
+	image: image51
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Counter target spell unless its controller pays <sym>S</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 18:17:25
+	time modified: 2019-12-30 22:15:48
+	name: Snow-volving Wilds
+	image: image41
+	super type: <word-list-type>Snow Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text: <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_us:/magic.mse-game/magic-words>Snow-volving</error-spelling:en_us:/magic.mse-game/magic-words> Wilds: Search your library for a basic snow land card, put it onto the battlefield tapped, then shuffle your library.
+	flavor text: <i-flavor>The glacier was the god’s great plow. Set at work ages ago to grind, furrow, and knead the face of the earth.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 21:33:53
+	time modified: 2019-12-31 13:09:47
+	name: Hermey's Dental Service
+	casting cost: 2U
+	image: image38
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature has base power of 0.
+	flavor text: <i-flavor>“Come here. Open your mouth.” — <error-spelling:en_us>Hermey</error-spelling:en_us> the Elf</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 21:57:19
+	time modified: 2020-01-19 13:58:07
+	name: Frozen Roses
+	image: image40
+	super type: <word-list-type>Snow Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: rare
+	rule text:
+		Frozen Roses enters the battlefield tapped unless you have an opponent of your choice create a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 22:30:51
+	time modified: 2019-12-30 23:48:46
+	name: Professor Hinkle
+	casting cost: 2U
+	image: image43
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	rule text: When Professor Hinkle enters the battlefield destroy all hope.
+	flavor text: <i-flavor>“Don’t talk back to your elders, you... you naughty, naughty, little girl.”</i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-doublefaced-exporter
+	has styling: false
+	notes: 
+	time created: 2019-12-30 22:31:32
+	time modified: 2020-01-19 11:45:27
+	name: Christmas Spirit
+	casting cost: WUBRG
+	image: image35
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Christmas</word-list-race> <word-list-class>Avatar</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>protection from <param-name>everything</param-name></nospellcheck></kw-a>
+		Christmas Spirit can’t attack or block.
+		When a player other than the owner of Christmas Spirit sacrifices a Present token, you get a Spirit counter.
+		If you have 5 or more Spirit counters, transform Christmas Spirit.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	name 2: Christmas Folly
+	image 2: image 21
+	super type 2: <word-list-type>Legendary Creature</word-list-type>
+	sub type 2: <word-list-race>Christmas</word-list-race> <word-list-class>Avatar</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text 2: <kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>, <kw-a><nospellcheck>indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>annihilator <param-number>10</param-number></nospellcheck></kw-a>
+	flavor text 2: <i-flavor>I am a monument to all your sins.</i-flavor>
+	power 2: 13
+	toughness 2: 13
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-30 23:01:14
+	time modified: 2019-12-31 16:36:53
+	name: Santa's Workshop
+	image: image45
+	super type: <word-list-type>Legendary Snow Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text: <sym-auto>X</sym-auto>, <sym-auto>T</sym-auto>: Create X Present tokens. <i-auto>(They’re artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor>A flourish of ribbons, a flash of tinsel. Working all the year to bring joy.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 10:25:31
+	time modified: 2020-01-19 13:48:53
+	name: Glacial Wall
+	casting cost: 1UU
+	image: image42
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wall</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>
+		Whenever Glacial Wall blocks a creature, that creature doesn’t untap during its controller’s next untap step.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 7
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 10:28:51
+	time modified: 2019-12-31 11:03:47
+	name: Magic Barrier
+	casting cost: 1WU
+	image: image44
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wall</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>flying</nospellcheck></kw-a>
+		<kw-1><nospellcheck>Shroud</nospellcheck><atom-reminder-core> <i-auto>(This permanent can’t be the target of spells or abilities.)</i-auto></atom-reminder-core></kw-1>
+	flavor text: <i-flavor>Santa’s Workshop is sealed to the world by the deep <error-spelling:en_us>magicks</error-spelling:en_us>. Do not try to enter there.</i-flavor>
+	power: 0
+	toughness: 8
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 10:32:57
+	time modified: 2019-12-31 10:43:56
+	name: Arctic Storm
+	casting cost: 1U
+	image: image49
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wall</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>flying</nospellcheck></kw-a>
+		Prevent all combat damage that would be dealt to and dealt by Arctic <kw-0><nospellcheck>Storm</nospellcheck></kw-0>.
+	flavor text: <i-flavor>The northern gale’s ferocity was such that they knew that they had to turn back.</i-flavor>
+	power: 0
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15-clear
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:02:42
+	time modified: 2020-01-19 12:43:33
+	name: Spirit of Reciprocity
+	casting cost: 1GG
+	image: image73
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Christmas</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: Whenever another player gains control of a Present token, you may draw a card.
+	flavor text: <i-flavor>For me? No, for you!</i-flavor>
+	power: 1
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:12:06
+	time modified: 2019-12-31 13:18:43
+	name: Industrious Children
+	casting cost: 2W
+	image: image46
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Spawn</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym>S</sym>, <sym-auto>T</sym-auto>: Create two 1/1 white Snowman tokens.
+	flavor text: <i-flavor>He was made of snow but the children know how he came to life one day.</i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:19:14
+	time modified: 2019-12-31 13:32:11
+	name: Ugly Christmas Necktie
+	casting cost: B
+	image: image56
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Create a 1/1 black and white Spirit token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
+	flavor text: <i-flavor>It was just too much this year.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:25:33
+	time modified: 2020-01-19 12:40:05
+	name: North Pole Mail Route
+	casting cost: 3
+	image: image71
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Target player gains control of target artifact token.
+	flavor text: <i-flavor>1.2 million letters come in, 1 million presents go out. Every day.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:39:58
+	time modified: 2019-12-31 13:22:09
+	name: Rejected at the Mistletoe
+	casting cost: UB
+	image: image53
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Counter target spell. Its controller loses 3 life unless they pay <sym>S</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:42:30
+	time modified: 2019-12-31 11:59:34
+	name: Dead on Arrival
+	casting cost: B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target creature unless its controller pays <sym>S</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:46:04
+	time modified: 2019-12-31 16:36:45
+	name: Wrap Up Her Damn Cat
+	casting cost: W
+	image: image50
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target creature. Its owner creates a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 11:49:50
+	time modified: 2019-12-31 13:19:25
+	name: Frozen Lake
+	casting cost: 4W
+	image: image47
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Creatures can’t attack you or a planeswalker you control unless their controller pays <sym>S</sym> for each attacking creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 12:07:11
+	time modified: 2019-12-31 13:30:35
+	name: Unwrapped Present
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever you cast a blue spell, draw a card.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 12:08:41
+	time modified: 2020-01-19 12:15:04
+	name: Hearth Ash
+	casting cost: 1R
+	image: image67
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever you cast a black spell, a creature you control gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 12:13:04
+	time modified: 2019-12-31 16:36:36
+	name: Season's Greeting
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever you cast a red spell, create a Present token. <i-auto>(It’s an artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:12:16
+	time modified: 2019-12-31 17:02:32
+	name: Good Will
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever you cast a green spell, create a Present token. <i-auto>(It’s an artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:12:31
+	time modified: 2020-01-19 12:18:50
+	name: A Christmas Dream
+	casting cost: 1U
+	image: image68
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever you cast a black spell, a creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:34:52
+	time modified: 2019-12-31 16:36:08
+	name: Bountiful Stocking
+	casting cost: 3
+	image: image57
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>T</sym-auto>: Create a Present token. <i-auto>(It’s an artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:53:57
+	time modified: 2019-12-31 16:36:26
+	name: Elven Log Team
+	casting cost: 1R/GR/G
+	image: image54
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		When Elven Log Team enters the battlefield, tap target Forest or destroy Elven Log Team.
+		<sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>: Create 2 Present tokens. <i-auto>(They’re artifacts with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:56:35
+	time modified: 2019-12-31 15:41:22
+	name: Elven Sappers
+	casting cost: 1R/G
+	image: image59
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Target players lands don’t produce mana until end of turn.
+	flavor text: <i-flavor>Beautiful to behold, the glittering icicles present a deadly obstacle to any would-be raiders.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 13:58:56
+	time modified: 2019-12-31 15:33:14
+	name: Painterly Elves
+	casting cost: U
+	image: image60
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <sym-auto>T</sym-auto>: Target land becomes the basic land type of your choice until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 14:00:09
+	time modified: 2019-12-31 14:12:43
+	name: Assemble the Sleigh Team
+	casting cost: 2GU
+	image: image61
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text:
+		Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Search your library for an creature card with converted mana cost of 3 or less, reveal it, put it into your hand, then shuffle your library.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library.<error-spelling>
+		</error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 14:15:33
+	time modified: 2019-12-31 15:41:27
+	name: Mother Nature's Vexation
+	casting cost: U
+	image: image62
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		Tap target land.
+		<kw-A><nospellcheck>Overload <param-cost><sym-auto>5U</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each”.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 15:01:42
+	time modified: 2019-12-31 15:04:23
+	name: Terramorphic Snow-pants
+	image: image58
+	super type: <word-list-type>Snow Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text: <sym-auto>T</sym-auto>, Sacrifice <error-spelling:en_us:/magic.mse-game/magic-words>Terramorphic</error-spelling:en_us:/magic.mse-game/magic-words> Snow-pants: Search your library for a basic snow land card, put it onto the battlefield tapped, then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 15:21:45
+	time modified: 2019-12-31 15:26:33
+	name: Holly Hedge
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wall</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>
+	flavor text: <i-flavor>Bright berries hide wicked thorns.</i-flavor>
+	power: 0
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 15:44:19
+	time modified: 2019-12-31 15:47:22
+	name: Kevin McAllister
+	casting cost: 2W
+	image: image63
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Spawn</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		Destroy target attacking creature.
+	flavor text: <i-flavor>You guys give up? Or you thirsty for more?</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2019-12-31 15:44:23
+	time modified: 2020-01-19 12:09:29
+	name: Department Store Window
+	casting cost: 1
+	image: image66
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text:
+		Untap Department Store Window during each player’s untap phase.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Target player creates a Present token. <i-auto>(It’s an artifact with “Sacrifice this artifact: Add one mana of any color to your mana pool, or one <sym>S</sym>.”)</i-auto> Any player may activate this ability.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-19 11:38:48
+	time modified: 2020-01-19 11:40:38
+	name: First Snows of December
+	casting cost: WBB
+	image: image64
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text:
+		Return target creature from your graveyard to the battlefield.
+		If you control a snow land and First Snows of December would be put into your graveyard, shuffle it in to your library instead.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-19 11:47:56
+	time modified: 2020-01-19 11:53:07
+	name: The Ticket Booth
+	casting cost: UU
+	image: image65
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Counter target spell unless its controller pays three thousand <sym>C</sym> and four cents, including tax.
+	flavor text: <i-flavor>No money!? No money, no ticket!</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-19 12:19:17
+	time modified: 2020-01-19 12:25:27
+	card color: white, black, hybrid, horizontal
+	name: A Christmas Dream (1946)
+	casting cost: WB
+	image: image69
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Black and White Creatures you control have <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+	flavor text:
+		<i-flavor>Please don’t throw me away again.<soft-line>
+		Merry Christmas!</soft-line></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-19 12:35:13
+	time modified: 2020-01-19 12:37:20
+	name: The Wet Bandits
+	casting cost: GU
+	image: image70
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-0><nospellcheck><param-prefix>Island</param-prefix>walk</nospellcheck></kw-0>
+		All lands are Islands in addition to their other types.
+	flavor text: <i-flavor>“You left the water running again, didn’t you?”</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-19 12:45:28
+	time modified: 2020-01-19 12:50:46
+	name: Snowball Fight
+	casting cost: RRR
+	image: image74
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Challenge another player. The challenged player may pay <sym-auto>S</sym-auto>. If they do, you may pay <sym-auto>S</sym-auto>, and so on. The first player failing to pay <sym>S</sym> takes 5 damage.
+	flavor text: <i-flavor>With the Season’s Greetings!</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 15:58:12
+	time modified: 2020-01-25 15:59:58
+	name: Stekkjarstaur, Sheep-Cote Clod
+	image: image72
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Harasses sheep, but is impaired by his stiff peg-legs.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:00:05
+	time modified: 2020-01-25 16:04:53
+	name: Giljagaur, Gully Gawk
+	image: image77
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>	Hides in gullies, waiting for an opportunity to sneak into the cowshed and steal milk.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:01:35
+	time modified: 2020-01-25 16:02:26
+	name: Stúfur, Stubby
+	image: image76
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Abnormally short. Steals pans to eat the crust left on them.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:02:40
+	time modified: 2020-01-25 16:04:15
+	name: Þvörusleikir, Spoon-licker
+	image: image78
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Steals and licks wooden spoons. Is extremely thin due to malnutrition.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:05:15
+	time modified: 2020-01-25 16:06:49
+	name: Pottaskefill, Pot-scraper
+	image: image75
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Steals leftovers from pots.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:06:53
+	time modified: 2020-01-25 16:10:02
+	name: Askasleikir, Bowl-licker
+	image: image80
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: If an artifact an opponent control <error-spelling:en_us:/magic.mse-game/magic-words>becoms</error-spelling:en_us:/magic.mse-game/magic-words> tapped, gain control of it.
+	flavor text: <i-flavor>Hides under beds waiting for someone to put down their <error-spelling:en_us>askur</error-spelling:en_us>, which he then steals.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:10:15
+	time modified: 2020-01-25 16:11:22
+	name: Hurðaskellir, Door-slammer
+	image: image79
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Likes to slam doors, especially during the night, waking people up.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:11:57
+	time modified: 2020-01-25 16:13:06
+	name: Skyrgámur, Skyr-Gobbler
+	image: image81
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>A Yule Lad with a great affinity for <error-spelling:en_us>skyr</error-spelling:en_us>.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	stylesheet: m15
+	has styling: false
+	notes: 
+	time created: 2020-01-25 16:13:25
+	time modified: 2020-01-25 16:14:21
+	extra data:
+		magic-counter-m15:
+			counter symbol: 
+	name: Bjúgnakrækir, Sausage-Swiper
+	image: image82
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>Hides in the rafters and snatches sausages that are being smoked.</i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 
